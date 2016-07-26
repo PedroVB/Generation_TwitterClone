@@ -1,0 +1,348 @@
+body {
+  background-color: #f5f8fa; }
+
+.align {
+  text-align: center; }
+
+.navigation_bar {
+  position: fixed;
+  top: 0;
+  height: 46px;
+  width: 100%;
+  background-color: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.1);
+  z-index: 2; }
+
+.navigation_list {
+  display: inline-block;
+  height: 45px;
+  padding: 0 15px 0 3px;
+  float: left; }
+  .navigation_list .glyphicon {
+    vertical-align: middle;
+    font-size: 16px; }
+  .navigation_list a {
+    margin-left: 4px;
+    vertical-align: middle; }
+    .navigation_list a:hover {
+      text-decoration: none;
+      cursor: pointer; }
+
+.profile_list {
+  display: inline-block; }
+  .profile_list a:hover {
+    text-decoration: none;
+    cursor: pointer; }
+
+.dropdown {
+  display: inline-block; }
+
+.dropdown-menu li a {
+  font-size: 12px;
+  color: #66757f;
+  cursor: pointer; }
+  .dropdown-menu li a:hover {
+    background-color: #009999;
+    color: white !important; }
+  .dropdown-menu li a span:hover {
+    background-color: #009999;
+    color: white !important; }
+
+.me {
+  font-weight: bold;
+  color: black; }
+
+.glyphicon {
+  color: #66757f;
+  font-size: 14px; }
+
+.text_list {
+  color: #66757f;
+  font-size: 13px; }
+
+.site_logo {
+  padding-top: 14px; }
+  .site_logo img {
+    width: 24px; }
+
+.search_twitter {
+  display: inline-block;
+  position: relative;
+  width: 220px;
+  margin-right: 15px;
+  padding-top: 7px;
+  font-size: 12px; }
+
+.search_box {
+  width: 100%;
+  padding: 7px 26px 5px 11px;
+  background-color: #f5f8fa;
+  border: 1px solid #e1e8ed;
+  border-radius: 21px; }
+
+.icon_searchbox {
+  display: block;
+  position: absolute;
+  top: 17px;
+  right: 0px;
+  width: 26px;
+  height: 26px;
+  cursor: pointer; }
+
+.profile_box {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  margin-right: 15px;
+  cursor: pointer; }
+
+.profile {
+  display: inline-block;
+  border-radius: 5px; }
+
+.button_tweet {
+  height: 32px;
+  margin-top: 7px;
+  margin-right: 0;
+  padding: 0 14px 0 14px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background-color: #009999;
+  color: #fff;
+  font-size: 13px;
+  cursor: pointer; }
+  .button_tweet .glyphicon {
+    color: #fff; }
+
+.container_twitter {
+  padding-top: 46px; }
+
+.banner {
+  height: 400px;
+  background-image: url("../img/banner_twitter.png");
+  background-size: cover; }
+
+.profile_data {
+  height: 60px;
+  background-color: #fff;
+  border-bottom: 1px solid #e1e8ed; }
+
+.profile_info {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.profile_element {
+  display: block;
+  line-height: 1;
+  padding: 15px 14px 8px;
+  border-bottom: 0 solid; }
+  .profile_element:hover {
+    border-bottom: 4px solid #009999;
+    color: #292f33; }
+
+.actual_element {
+  border-bottom: 4px solid #009999;
+  color: #292f33;
+  margin-left: -40px; }
+
+.text_color {
+  color: #66757f; }
+
+.text_color2 {
+  color: #009999; }
+
+.actual_value {
+  color: black !important; }
+
+.label {
+  display: block;
+  text-align: center;
+  font-size: 11px;
+  text-transform: uppercase; }
+
+.value {
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  color: #009999; }
+
+.options {
+  padding: 12px 0;
+  margin-left: -40px; }
+  .options .glyphicon-cog {
+    margin-right: 15px;
+    vertical-align: middle;
+    font-size: 16px; }
+  .options .button_follow {
+    padding: 8px 10px 8px 10px;
+    border: 1px solid #3b88c3;
+    color: #fff;
+    background-color: #1da1f2;
+    font-size: 14px;
+    font-weight: bold; }
+
+.image_box {
+  position: relative; }
+  .image_box img {
+    position: absolute;
+    top: -170px;
+    left: 20px;
+    height: 210px;
+    width: 210px;
+    border: 5px solid #fff;
+    border-radius: 12px; }
+
+.info_profiletwitter {
+  margin: 40px 0 30px 0;
+  padding: 0 0 0 30px; }
+  .info_profiletwitter h1 {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 700;
+    padding-top: 15px; }
+  .info_profiletwitter h2 {
+    margin: 0 0 10px 0;
+    font-size: 14px;
+    font-weight: 400;
+    color: #8899a6; }
+  .info_profiletwitter .button_tweetdirect {
+    height: 32px;
+    width: 100%;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-right: 0;
+    padding: 0 14px 0 14px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: #009999;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer; }
+    .info_profiletwitter .button_tweetdirect .glyphicon {
+      color: #fff; }
+
+.fotos {
+  margin-top: 20px;
+  margin-bottom: 10px; }
+
+.fotos_container img {
+  width: 70px;
+  height: 70px;
+  margin: 5px 0px 5px 0px;
+  border-radius: 7px; }
+
+.box_white {
+  background-color: #fff;
+  border: 1px solid #e1e8ed;
+  border-radius: 5px; }
+
+.profile_nav {
+  margin-top: 18px; }
+
+.item_profile {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.item {
+  display: inline-block;
+  padding: 15px 15px 12px;
+  line-height: 1;
+  color: #009999;
+  font-size: 18px;
+  font-weight: 300; }
+
+.tweets {
+  margin: 0;
+  padding: 9px 12px;
+  border-radius: 0 0 5px 5px; }
+
+.img_profile {
+  width: 48px;
+  height: 48px;
+  margin-right: 7px; }
+
+.size_tweet {
+  font-size: 13px; }
+
+.tweettext {
+  font-size: 26px;
+  line-height: 32px;
+  font-weight: 300;
+  letter-spacing: .01em;
+  margin-left: 55px; }
+
+.image_tweet {
+  width: 100%;
+  border-radius: 5px; }
+
+.content_tweet {
+  padding-left: 55px; }
+
+.follow {
+  margin-top: 17px;
+  padding: 15px;
+  font-size: 12px;
+  width: 280px; }
+
+.follow-title {
+  display: inline-block;
+  margin: 0;
+  color: #66757f;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1; }
+
+.user_follow {
+  margin-top: 18px; }
+  .user_follow .glyphicon {
+    color: #1da1f2; }
+  .user_follow .glyphicon-remove {
+    color: #66757f !important; }
+
+.button_follow {
+  margin-top: 3px;
+  margin-left: 15px;
+  padding: 3px 11px 5px;
+  color: #292f33;
+  font-size: 13px;
+  font-weight: bold; }
+
+.separation {
+  margin-left: 15px; }
+
+.TT {
+  font-weight: bold;
+  color: #009999;
+  font-size: 13px; }
+
+@media screen and (max-width: 1000px) {
+  .text_list {
+    display: none; }
+
+  .search_twitter {
+    display: none; }
+
+  .button_tweet {
+    display: none; }
+
+  .profile {
+    display: none; }
+
+  .profile_data {
+    display: none; }
+
+  .profile_nav {
+    display: none; }
+
+  .banner {
+    height: 350px; }
+
+  .image_box {
+    position: absolute;
+    top: -30px; } }
+
+/*# sourceMappingURL=index.css.map */

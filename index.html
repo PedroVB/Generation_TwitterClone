@@ -1,0 +1,286 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>IronHack Twitter Clone</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="scss/index.css">
+    <script type="text/javascript" src="jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <nav class="navigation_bar">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 pull-left">
+                    <ul>
+                        <li class="navigation_list profile_element"><span class="glyphicon glyphicon-home"></span><a class="text_list" href="#">Inicio</a>
+                        </li>
+                        <li class="navigation_list profile_element"><span class="glyphicon glyphicon-bell"></span><a class="text_list" href="#">Notificaciones</a>
+                        </li>
+                        <li class="navigation_list profile_element"><span class="glyphicon glyphicon-envelope"></span><a class="text_list" href="#">Mensajes</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-2 site_logo">
+                    <img class="center-block" src="img/icono_twitter.png" alt="Icono_Twitter">
+                </div>
+                <div class="col-md-5">
+                    <div class="pull-right">
+                        <div class="search_twitter">
+                            <input class="search_box" type="search" placeholder="Buscar en Twitter">
+                            <span class="icon_searchbox glyphicon glyphicon-search"></span>
+                        </div>
+                        <div class="dropdown">
+                            <img src="img/twitter_profile.png" class="profile profile_box dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                <li><a href="#"><span class="me">Pedris_Lega</span></a>
+                                </li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Listas</a>
+                                </li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Ayuda</a>
+                                </li>
+                                <li><a href="#">Atajos de teclado</a>
+                                </li>
+                                <li><a href="#">Twitter Ads</a>
+                                </li>
+                                <li><a href="#">Analytics</a>
+                                </li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Configuración</a>
+                                </li>
+                                <li><a href="#">Cerrar sesión</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <button type="button" class="button_tweet">
+                            <span class="glyphicon glyphicon-edit"></span>
+                            <span>Twittear</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section class="container_twitter">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="banner"></div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="profile_data">
+                    <div class="align col-md-6 col-md-offset-3">
+                        <ul class="profile_info">
+                            <li class="profile_list">
+                                <a class="profile_element actual_element">
+                                    <span class="label text_color">Tweets</span>
+                                    <span class="value actual_value">3.025</span>
+                                </a>
+                            </li>
+                            <li class="profile_list">
+                                <a class="profile_element">
+                                    <span class="label text_color">Siguiendo</span>
+                                    <span class="value">2.449</span>
+                                </a>
+                            </li>
+                            <li class="profile_list">
+                                <a class="profile_element">
+                                    <span class="label text_color">Seguidores</span>
+                                    <span class="value">7.681</span>
+                                </a>
+                            </li>
+                            <li class="profile_list">
+                                <a class="profile_element">
+                                    <span class="label text_color">Me gusta</span>
+                                    <span class="value">38.7K</span>
+                                </a>
+                            </li>
+                            <li class="profile_list">
+                                <a class="profile_element">
+                                    <span class="label text_color">Listas</span>
+                                    <span class="value">7</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="options">
+                            <span class="glyphicon glyphicon-cog"></span>
+                            <button class="button_follow" type="button" name="button">Siguiendo</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="image_box">
+                        <img src="img/ironhack_big.png" alt="Profile_Image">
+                    </div>
+                    <div class="info_profiletwitter">
+                        <h1>Ironhack</h1>
+                        <h2>@ironhack</h2>
+                        <p>Ironhack is an international coding bootcamp that believes the best way to learn how to do something, is by actually doing it.</p>
+                        <div>
+                            <span class="glyphicon glyphicon-map-marker"></span>
+                            <span>Madrid, Barcelona & Miami</span>
+                        </div>
+                        <div>
+                            <span class="glyphicon glyphicon-link"></span>
+                            <a class="text_color2" href="http://www.ironhack.com">ironhack.com</a>
+                        </div>
+                        <div>
+                            <span class="glyphicon glyphicon-calendar"></span>
+                            <span>Se unió en junio de 2013</span>
+                        </div>
+                        <button type="button" class="button_tweetdirect">
+                            <span class="glyphicon glyphicon-edit"></span>
+                            <span class="text">Twittear a Ironhack</span>
+                        </button>
+                        <div class="fotos">
+                            <span class="glyphicon glyphicon-camera"></span>
+                            <a href="#" class="text_color2">675 fotos y videos</a>
+                        </div>
+                        <div class="fotos_container">
+                            <img src="img/foto1.jpg-thumb.jpg" />
+                            <img src="img/foto2.jpg-thumb.jpg" />
+                            <img src="img/foto3.jpg-thumb.jpg" />
+                            <img src="img/foto4.jpg-thumb.jpg" />
+                            <img src="img/foto5.jpg-thumb.jpg" />
+                            <img src="img/foto6.jpg-thumb.jpg" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class=" box_white profile_nav">
+                        <ul class="item_profile">
+                            <li class="item actual_value">
+                                <span>Tweets</span>
+                            </li>
+                            <li class="item">
+                                <span>Tweets y respuestas</span>
+                            </li>
+                            <li class="item">
+                                <span>Medios</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class=" box_white tweets">
+                        <img class="img_profile pull-left" src="img/ironhack_small.png">
+                        <strong>Ironhack</strong>
+                        <span class="size_tweet text_color">@ironhack · 10h</span>
+                        <span class="glyphicon glyphicon-globe pull-right"></span>
+                        <p class="tweettext">
+                            Today at the <a href="#" class="text_color2">IronhackCampusBCN @franccarreras</a> Join now! <a href="#" class="text_color2">http://bit.ly/1SMrUaR  #SantJordiscoming #tech #marketing</a>
+                        </p>
+                        <div class="content_tweet">
+                            <img class="image_tweet" src="img/tweet.PNG">
+                        </div>
+                    </div>
+                    <div class=" box_white tweets">
+                        <img class="img_profile pull-left" src="img/ironhack_small.png">
+                        <strong>Ironhack</strong>
+                        <span class="size_tweet text_color">@ironhack · 18 abr.</span>
+                        <span class="glyphicon glyphicon-globe pull-right"></span>
+                        <p class="tweettext">
+                            At <a href="#" class="text_color2">#IronhackCampusBCN</a> with <a href="#" class="text_color2">@franccarreras</a> (thanks for coming ;) <a href="#" class="text_color2">#tech #marketing #andaveycrea #irontalkbcn</a>
+                        </p>
+                        <div class="content_tweet">
+                            <img class="image_tweet" src="img/tweet2.PNG">
+                        </div>
+                    </div>
+                    <div class=" box_white tweets">
+                        <img class="img_profile pull-left" src="img/ironhack_small.png">
+                        <strong>Ironhack</strong>
+                        <span class="size_tweet text_color">@ironhack · 16 abr.</span>
+                        <span class="glyphicon glyphicon-globe pull-right"></span>
+                        <p class="tweettext">
+                            Thanks for coming <a href="#" class="text_color2">@ignasi35</a> & <a href="#" class="text_color2">#ironhackers</a>!
+                            <a href="#" class="text_color2">#IronhackCampusBCN #tech #code http://www.ironhack.com</a>
+                        </p>
+                        <div class="content_tweet">
+                            <img class="image_tweet" src="img/tweet3.PNG">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="box_white follow">
+                        <h3 class="follow-title">A quién seguir</h3>
+                        <a href="#" class="text_color2">· Actualizar · Ver todos</a>
+                        <div class="user_follow">
+                            <img class="pull-left" src="img/rfef.png">
+                            <strong class="separation">RFEF</strong>
+                            <span class="text_color">@rfef</span>
+                            <span class="glyphicon glyphicon-remove pull-right"></span>
+                            <br/>
+                            <button type="button" class="btn btn-default button_follow">
+                                <div>
+                                    <span class="glyphicon glyphicon-user"></span> Seguir
+                                </div>
+                            </button>
+                        </div>
+                        <div class="user_follow">
+                            <img class="pull-left" src="img/domestika.png">
+                            <strong class="separation">Domestika</strong>
+                            <span class="text_color">@Domestika</span>
+                            <span class="glyphicon glyphicon-remove pull-right"></span>
+                            <button type="button" class="btn btn-default button_follow">
+                                <div>
+                                    <span class="glyphicon glyphicon-user"></span> Seguir
+                                </div>
+                            </button>
+                        </div>
+                        <div class="user_follow">
+                            <img class="pull-left" src="img/madrid.png">
+                            <strong class="separation">Madridismo</strong>
+                            <span class="text_color">@Madridismo</span>
+                            <span class="glyphicon glyphicon-remove pull-right"></span>
+                            <button type="button" class="btn btn-default button_follow">
+                                <div>
+                                    <span class="glyphicon glyphicon-user"></span> Seguir
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="box_white follow">
+                        <h3 class="follow-title">Tendencias</h3>
+                        <a href="#" class="text_color2">· Cambiar</a>
+                        <br/>
+                        <br/>
+                        <p>
+                            <a class="TT" href="#">Carlos Fabra</a>
+                            <br>
+                            <a class="TT" href="#">#jonanpekin</a>
+                            <br>
+                            <a class="TT" href="#">#PreguntaGodin</a>
+                            <br>
+                            <a class="TT" href="#">Stana</a>
+                            <br>
+                            <a class="TT" href="#">#florymata</a>
+                            <br>
+                            <a class="TT" href="#">LaPAHaIPP</a>
+                            <br>
+                            <a class="TT" href="#">Ducati</a>
+                            <br>
+                            <a class="TT" href="#">#AskYlenia</a>
+                            <br>
+                            <a class="TT" href="#">Velasco Carballo</a>
+                            <br>
+                            <a class="TT" href="#">Urbanismo</a>
+                            <br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
